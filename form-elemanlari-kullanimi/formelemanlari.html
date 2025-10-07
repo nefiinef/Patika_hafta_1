@@ -10,48 +10,54 @@
       <!-- Personal Information section -->
       <fieldset>
         <legend>Personal Information</legend>
-        <label for="fname">First Name</label>
-        <input type="text" name="fname" id="fname" required />
-        <br />
-        <br />
-        <label for="lname">Last Name</label>
-        <input type="text" name="lname" id="lname" required />
-        <p>Gender:</p>
-        <input type="radio" name="gender" id="female" value="female" required />
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="male" value="male" required />
-        <label for="male">Male</label>
-        <br />
-        <br />
-        <label for="favoriteFruit">Favorite Fruit</label>
-        <select name="favoriteFruit" id="favoriteFruit" required>
-          <option value="select">Select</option>
-          <option value="cherry">Cherry</option>
-          <option value="mango">Mango</option>
-          <option value="banana">Banana</option>
-          <option value="apple">Apple</option>
-        </select>
-        <br />
-        <br />
-        <label for="message">Message</label>
+        <div class="name">
+          <label for="fname" style="display: block">First Name</label>
+          <input type="text" name="fname" id="fname" required />
+          <label for="lname" style="display: block">Last Name</label>
+          <input type="text" name="lname" id="lname" required />
+        </div>
+        <div class="gender" style="padding-bottom: 30px">
+          <p>Gender:</p>
+          <input
+            type="radio"
+            name="gender"
+            id="female"
+            value="female"
+            required
+          />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="male" value="male" required />
+          <label for="male">Male</label>
+        </div>
+        <div class="favorite-fruit" style="padding-bottom: 30px">
+          <label for="favoriteFruit">Favorite Fruit</label>
+          <select name="favoriteFruit" id="favoriteFruit" required>
+            <option value="select">Select</option>
+            <option value="cherry">Cherry</option>
+            <option value="mango">Mango</option>
+            <option value="banana">Banana</option>
+            <option value="apple">Apple</option>
+          </select>
+        </div>
+
+        <label for="message" style="display: block">Message</label>
         <textarea name="message" id="message"></textarea>
       </fieldset>
       <!-- End of Personal Information section -->
       <!-- Account section -->
       <fieldset>
         <legend>Account</legend>
-        <label for="email">Email</label>
+        <label for="email" style="display: block">Email</label>
         <input type="email" name="email" id="email" required />
-        <br />
-        <br />
-        <label for="pwd">Password</label>
+        <label for="pwd" style="display: block">Password</label>
         <input type="password" name="pwd" id="pwd" minlength="8" required />
       </fieldset>
       <!-- End of Account section -->
-      <br />
       <!-- Submit and Reset buttons -->
-      <input type="submit" value="Submit" />
-      <input type="reset" value="Reset" />
+      <div class="form-buttons" style="padding: 2px">
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </div>
     </form>
   </body>
 </html>
