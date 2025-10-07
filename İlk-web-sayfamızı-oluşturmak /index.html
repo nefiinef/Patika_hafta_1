@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İlk Web Sayfamızı Oluşturmak</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Raleway", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #1f1e1e;
+      }
+      figure img {
+        border-radius: 5px;
+        padding: 10px 5px 0px 5px;
+      }
+      .links a {
+        text-decoration: none;
+        color: #1f1e1e;
+      }
+      .links {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Nefise Bikbay</h1>
+    </header>
+    <!--main content start-->
+    <main>
+      <section>
+        <h2>About Me</h2>
+        <p>
+          Merhaba, ben Nefise. Bu benim HTML eğitimi için oluşturduğum web
+          sayfam.
+        </p>
+        <p>
+          Web tasarım bölümünden mezun oldum bu süreçte yazılımı sevdiğimi fark
+          ettim. Şu anda front-end developer olmak için eğitim alıyorum.
+        </p>
+        <h3>Education</h3>
+        <ol>
+          <li>Anadolu Universitesi Web Tasarım</li>
+          <li>Patika+ FrontEnd Web Developer Bootcamp</li>
+        </ol>
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Kitap okumak</li>
+          <li>Müzeleri gezmek</li>
+          <li>Yeni yerler keşfetmek ve yeni şeyler öğrenmek</li>
+        </ul>
+      </section>
+      <section>
+        <!--an image inside a figure-->
+        <figure>
+          <img
+            src="images/kedi.jpg"
+            alt="Sevimli bir kedi"
+            width="250"
+            loading="lazy"
+          />
+          <figcaption>
+            İnternette karşılaştığım bu fotoğraf çok sevimli görünüyordu sizinle
+            paylaşmak istiyorum.
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+    <!--main content end-->
+
+    <footer>
+      <div class="links">
+        <!-- social links -->
+        <a href="https://www.linkedin.com/in/nefisebikbay/">Linkedin |</a>
+        <a href="https://github.com/nefiinef">Github</a>
+      </div>
+      <div>
+        <!-- google maps embed -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6352379.286252901!2d29.84344328162085!3d38.9754286913275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b0155c964f2671%3A0x40d9dbd42a625f2a!2zVMO8cmtpeWU!5e0!3m2!1str!2str!4v1759843395200!5m2!1str!2str"
+          width="300"
+          height="225"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </footer>
+  </body>
+</html>
