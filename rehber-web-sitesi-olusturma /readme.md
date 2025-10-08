@@ -1,5 +1,5 @@
 # Rehber Web Sitesi Oluşturma 🌎 Green Wave 
-## ⚠️ Yanlış konuya odaklanarak hazırlamışım bitirdiğim zaman fark ettim.
+## ⚠️ Yanlış konuya odaklanarak hazırlamışım bitirdiğim zaman fark ettim.İçeriğini değiştirmeye çalışacağım.
 Bu proje FrontEnd eğitimi için oluşturulmuştur.gerçek bir kuruluşa ait değildir.
 
 ## Özellikler
