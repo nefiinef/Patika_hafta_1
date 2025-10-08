@@ -23,4 +23,6 @@ Bu proje FrontEnd eğitimi için oluşturulmuştur.gerçek bir kuruluşa ait de�
 ## Kurulum ve Çalıştırma
 1. Proje dosyasını bilgisayarınıza indirin.
 2. index.html dosyasını tarayıcıda açın.
+
+   
    <img width="681" height="810" alt="Ekran Resmi 2025-10-08 16 51 22" src="https://github.com/user-attachments/assets/89b693e3-bef6-44f4-a2d6-8d69968192e5" />
